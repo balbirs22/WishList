@@ -18,7 +18,7 @@ const showwishlist = (wishlist) => {
         wishlisttextelement.innerText = item;
         containerelement.appendChild(wishlisttextelement);
         const deletebuttonelement= document.createElement('button');
-        deletebuttonelement.innerText= 'delete';
+        deletebuttonelement.innerText='delete'
         deletebuttonelement.setAttribute('name',item);
         containerelement.appendChild(deletebuttonelement);
         parentwishlistcontainer.appendChild(containerelement);
